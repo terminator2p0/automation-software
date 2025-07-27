@@ -33,7 +33,7 @@ class AutomationApp(tk.Tk):
         def target():
             self.log("Starting automation...")
             process = subprocess.Popen(
-                ["python", "weather.py"],
+                ["python", "weather2.py"],
                 stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True
             )
 
