@@ -1,2 +1,3 @@
 pip install schedule
 pip install requests
+pip install pyinstaller
